@@ -1,4 +1,8 @@
 def fibonacci_recur(n):
+    """
+    This is a function.
+    :param n:
+    """
     if n == 0:
         return 0
     elif n == 1:
@@ -7,6 +11,9 @@ def fibonacci_recur(n):
         return fibonacci_recur(n - 1) + fibonacci_recur(n - 2)
 
 def main():
+    """
+    Main
+    """
     while 1:
         print("~WELCOME TO FIBONACCI!~\nPress 1: Start\nPress 2: Exit")
         choice = int(input("Enter your choice: "))
